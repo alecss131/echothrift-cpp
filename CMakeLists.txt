@@ -17,6 +17,7 @@ find_package(Boost)
 
 set(GEN_CPP ${CMAKE_CURRENT_BINARY_DIR}/gen-cpp/Greet.cpp
         ${CMAKE_CURRENT_BINARY_DIR}/gen-cpp/Greet.h
+        ${CMAKE_CURRENT_BINARY_DIR}/gen-cpp/greet_types.cpp
         ${CMAKE_CURRENT_BINARY_DIR}/gen-cpp/greet_types.h)
 
 add_custom_command(

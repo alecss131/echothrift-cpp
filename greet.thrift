@@ -1,7 +1,13 @@
-namespace cpp tutorial
+namespace java ru.test
 
 service Greet {
-   void ping(),
+   HelloReply sayHello(1:HelloRequest message)
+}
 
-   string sayHello(1:string message)
+struct HelloRequest {
+  1: string name
+}
+
+struct HelloReply {
+  1: string message
 }
